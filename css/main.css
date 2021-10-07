@@ -96,6 +96,7 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+  outline: .125rem solid #000;
 }
 
 .icon {
@@ -138,6 +139,7 @@ figure img {
   border: 1px solid #259f95;
   border-radius: 6px;
   margin-bottom: 1.5rem;
+  outline: .125rem solid #fff;
 }
 
 figcaption {
