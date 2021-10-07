@@ -47,7 +47,7 @@ article div {
   padding: 1rem;
 }
 
-header article {
+article header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -115,16 +115,16 @@ nav i {
   height: 100%;
 }
 
-article p {
+main article p {
   margin: 0;
   text-indent: 1.3em;
 }
 
-article div :first-child {
+main article div :first-child {
   text-indent: 0;
 }
 
-article div :first-child::first-line {
+main article div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
