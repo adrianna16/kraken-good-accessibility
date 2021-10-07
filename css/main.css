@@ -54,7 +54,6 @@ article header {
   background-color: #259f95;
   background-image: none;
   border-radius: 0 0 6px 6px;
-  padding: 0;
   color: #fff;
 }
 
@@ -126,7 +125,7 @@ main article div :first-child {
   text-indent: 0;
 }
 
-main article:nth-child(2) div :first-child::first-line {
+main article div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
 }
